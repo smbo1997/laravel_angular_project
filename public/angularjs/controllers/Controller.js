@@ -70,8 +70,10 @@ app.controller('CarouselCtrl',function ($scope) {
     $scope.myInterval = 3000;
     $scope.slides=[];
     var images = angular.element(document.querySelector('#image')).find('img');
+
     angular.forEach(images, function(key,value) {
         $scope.slides.push({'image':key.src});
+        //console.log(key.src)
     });
 });
 

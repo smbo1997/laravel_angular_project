@@ -42,6 +42,11 @@ Route::get('/bootstrapcarusel', function (){
 
 Route::get('/upload', 'TestController@upload');
 
+
+//CHAT
 Route::get('/chat', 'ChatController@showchat');
+Route::post('/getmessages', 'ChatController@getmessages');
+Route::post('/sendmessage', 'ChatController@sendmessage');
+Route::post('/getnotreadmessages', 'ChatController@getnotreadmessages');
 
 

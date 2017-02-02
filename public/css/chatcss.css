@@ -186,8 +186,15 @@ img {
 }
 
 .primary-font {
-    color: #3c8dbc;
-}
+     color: #3c8dbc;
+ }
+
+.primary-font1 {
+     color: #75B83F;
+ }
+
+
+
 
 a:hover, a:active, a:focus {
     text-decoration: none;

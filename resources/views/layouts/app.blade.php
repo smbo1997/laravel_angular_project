@@ -16,6 +16,7 @@
         <link href="{{URL::asset('/angularjs/css/bootstrap.css')}}" rel="stylesheet">
         <link href="{{URL::asset('/angularjs/css/bootstrap.min.css')}}" rel="stylesheet">
         <link href="{{URL::asset('/css/chatcss.css')}}" rel="stylesheet">
+        <link href="{{URL::asset('/angularjs/css/uploadbtn.css')}}" rel="stylesheet">
 
         <!-- Scripts -->
         <script>
@@ -33,6 +34,7 @@ echo json_encode([
                 <script type="text/javascript" src="{{URL::asset('angularjs/modules/Modules.js')}}"></script>
                 <script type="text/javascript" src="{{URL::asset('angularjs/js/route.js')}}"></script>
                 <script type="text/javascript" src="{{URL::asset('angularjs/controllers/Controller.js')}}"></script>
+                <script type="text/javascript" src="{{URL::asset('angularjs/controllers/chatController.js')}}"></script>
                 <script type="text/javascript" src="{{URL::asset('angularjs/js/bootstrap-ui.js')}}"></script>
                 <script type="text/javascript" src="{{URL::asset('angularjs/js/ng-file-upload.js')}}"></script>
                 <script type="text/javascript" src="{{URL::asset('angularjs/js/ng-file-upload-shim.js')}}"></script>
